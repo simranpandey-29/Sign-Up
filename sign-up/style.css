@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left,rgb(17, 16, 16),rgb(39, 119, 211));
+
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: azure;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 5px 5px 5px rgb(39, 119, 211); 
+}
+.signup-header h1{
+    font-size: 2.5rem;
+}
+.signup-header p{
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+}
+.signup-body{
+    margin: 20px 0;
+    font-weight: 300;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    margin-top: 4px;
+}
+#submit{
+    background-color:rgb(39, 119, 211);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.signup-footer a{
+    color: rgb(39, 119, 211);
+    
+}
+.signup-footer{
+    text-align: center;
+}
